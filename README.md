@@ -1,5 +1,5 @@
 # Basic-YoutubeDL-Telegram
-Simple telegram bot for youtube-dl, ready to use right away.
+Simple telegram bot for archiving things, ready to use right away.
 
 ---
 
