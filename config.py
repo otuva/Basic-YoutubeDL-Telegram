@@ -1,4 +1,6 @@
-settings = {"bot_token": "<BOT_TOKEN>",
+# Change BOT TOKEN and USERS_ALLOWED
+
+settings = {"bot_token": "<BOT_TOKEN>",  # CHANGE THIS
             "language": "tr",  # tr/en
             "yt_archive_file": "archive_files/vids"
             }
@@ -22,4 +24,4 @@ youtube_video = {"download_archive": settings["yt_archive_file"],
                  "cookiefile": "cookies.txt"
                  }
 
-users_allowed = [USER2, USER1, USER0]
+users_allowed = [USER2, USER1, USER0]  # CHANGE THIS
