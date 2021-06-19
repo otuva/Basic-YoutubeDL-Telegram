@@ -6,36 +6,50 @@ Simple telegram bot for youtube-dl, ready to use right away.
 
 ### Usage:
 
-0- Take bot token from Telegram's _BotFather_
+0- Install docker
+
+    sudo apt install docker-ce
 
 <br>
 
-1- Install dependencies
+1- Take bot token from Telegram's _BotFather_
 
+<br>
+
+2- Install dependencies
+
+    docker pull capsulecode/singlefile
+    docker tag capsulecode/singlefile singlefile
     pip3 install -r requirements.txt
 
 <br>
 
-2- Edit config.py (You might need to learn your chat id. _e.g. chat id echo bot_)
+3- Edit config.py (You might need to learn your chat id. _e.g. chat id echo bot_)
 
 <br>
 
-3- Run main.py
+4- Run scripts respectively
 
+    python3 init.py
     python3 main.py
 
 <br>
 
-4- Profit
+5- Profit
 
-- To download, use:
+- To download video or audio, use:
     
-        /link <YT-LINK>
+      /video <LINK>
+      /song <LINK>
+  
+- To download other pages just send direct link to bot _e.g._:
 
+      https://www.history.com/news/rats-didnt-spread-the-black-death-it-was-humans
 ---
 
 
 Command | Description
 ------- | -----------
 start   | Reply usage
-link    | Download
+video   | Download video
+song    | Download song
