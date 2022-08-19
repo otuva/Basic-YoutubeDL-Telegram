@@ -1,6 +1,7 @@
 # Basic-YoutubeDL-Telegram
 Simple telegram bot for archiving things, ready to use right away.
 
+# NO LONGER MAINTAINED
 ---
 
 
